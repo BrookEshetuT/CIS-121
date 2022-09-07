@@ -1,3 +1,15 @@
+from turtle import distance
+"""""
+dog_year= 7
+human_age = float(input"how old are you?")
+human_in_dog_years=dog_year*human_age# the calculation for human in dogs age
+print("An age",human_age,"human shoud be",human_in_dog_years,"in dog years")
+"""
+"""name=input("whats your name?") #asking for input for name from user
+last_name=input("whats your last name?") #aksing for last name to be inputed by user
+age=int(input("how old are you?")) #asking an age 
+print("hi",name,last_name,",you're",age,"years old")"""
+
 humanage =  float(input("Enter your age: ")) #asking for age forom user
 dogage = humanage * 7 # one year in human is 7 times in dog year 1
 month= dogage % 1 #calculating the quotient of the year 
