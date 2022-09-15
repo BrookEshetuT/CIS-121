@@ -1,8 +1,9 @@
-"""
-Brook Taffese
-sep08,2022
 
-tax Brackets & Fedral income tax rates
+#Brook Taffese
+#sep08,2022
+
+#tax Brackets & Fedral income tax rates
+
 """
 import sys
 
@@ -50,4 +51,58 @@ if maritalStatus == "m":
     print("done")
 
 #print("This year you owe",tax,"in taxes")#print the calculated tax 
- 
+"""
+# write a small script that askk the user for  a number between 35-1000.when the user enter the number your program  should print the numbers from that x number  to 100 
+#but if the number goes over 100 just print the 100 by itself
+"""
+x=int(input("Enter a number from 35 to 1000:"))
+#while number>=35 and number <=1000 :
+   
+#if number <100:
+   #   number=number+1
+  #    print(number)
+  # else:
+   #   print(number)
+#if 35<=x<=1000:
+   #if x>=100:
+    #  print(100)
+   #else:
+   #   while x<= 100:
+  #       print(x)
+ #        x+=1 
+#else:
+ #  print("you did not enter a valuid number")         
+if 35<=x<=1000:
+   if x>=100:
+      print(100)
+   else:
+      while x<=100:
+         if x%2==0:
+            print(x)
+         x+=1
+        
+else:
+   print("you did not enter a valuid number")         
+   
+   boolien 
+   winner = true
+   loser =false
+   """
+   #14/09/22
+   #nested if is connected with elif and else we canm tell that if we have two if conditons
+""" 
+number=2
+while number <=10:
+   print(number)
+   number+=1
+"""
+#write a script that keeps asking the user for a number and check if the number is even or odd let the user know what it is if they  enter the number 0 stop asking for number
+number=int(input("enter the number:"))
+while number!=0:
+   if number%2==2:
+      print("the number is even")
+   else:
+      print("the number is odd")
+else:
+   print("run agin")
+number+=1
